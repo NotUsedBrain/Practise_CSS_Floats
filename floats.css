@@ -7,8 +7,9 @@
   Make sure the floats follow the HTML source order.
 */
 
-
- 
+nav li {
+  float: left;
+}
 
 
 /* 
@@ -16,9 +17,10 @@
   Apply a 15 pixel margin to the top, bottom and left sides.
 */
 
-
-
- 
+.img-featured {
+  float: right;
+  margin: 15px 0 15px 15px;
+}
 
 
 /* 
@@ -27,8 +29,10 @@
 */
 
 
-
-
+.img-article {
+  float: left;
+  margin-right: 20px;
+}
 
 
 /*  
@@ -36,9 +40,10 @@
   Adjust the width of '.article-content' so that both elements are laid out side by side.
 */
 
-
-
-
+.article-content {
+  float: left;
+  width: calc(800px - 170px);
+}
 
 
 /* 
@@ -52,15 +57,17 @@
   clear: both;
 }
 
+
 /* 
   Center the navigation inside the header. 
 */
 
+header {
+  text-align: center;
+}
 
-
-
-
-
-
+nav {
+  display: inline-block;
+}
 
 
